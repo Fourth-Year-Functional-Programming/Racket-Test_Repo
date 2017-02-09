@@ -46,7 +46,7 @@ matrix:
 
 before_install:
   - git clone https://github.com/chris2020/Racket-Test_Repo.git
-  - cat install-racket.sh | bash # pipe to bash not sh!
+  - cat Racket-Test_Repo/install-racket.sh | bash # pipe to bash not sh!
   - export PATH="${RACKET_DIR}/bin:${PATH}" #install-racket.sh can't set for us
 
 install:
