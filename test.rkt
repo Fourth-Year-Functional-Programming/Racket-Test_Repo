@@ -8,6 +8,9 @@
 (define (minus1 x)
   (sub1 x))
 
+(define (plus2 x)
+  (add2 x))
+
 (module+ test
   (require rackunit)
   (check-equal? (plus1 1) 2)
